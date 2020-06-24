@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/magomedaliyev/Documents/ContactManagementSys/function.c
+function.h
+/Users/magomedaliyev/Documents/ContactManagementSys/function.h
+
+/Users/magomedaliyev/Documents/ContactManagementSys/function.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+time.h
+-
+
+/Users/magomedaliyev/Documents/ContactManagementSys/main.c
+function.h
+/Users/magomedaliyev/Documents/ContactManagementSys/function.h
+sort.h
+/Users/magomedaliyev/Documents/ContactManagementSys/sort.h
+
+/Users/magomedaliyev/Documents/ContactManagementSys/sort.c
+sort.h
+/Users/magomedaliyev/Documents/ContactManagementSys/sort.h
+
+/Users/magomedaliyev/Documents/ContactManagementSys/sort.h
+function.h
+/Users/magomedaliyev/Documents/ContactManagementSys/function.h
+
