@@ -12,50 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71f780ca-c5eb-4b1b-8cbe-9ea55f4aee83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ContactManagementSys.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/C.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/function.c.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/main.c.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/sort.c.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/ContactManagementSys" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/ContactManagementSys.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/contacts.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/function.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/function.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/function.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/function.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/sort.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/sort.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ContactManagementSys" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ContactManagementSys" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/contacts.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function.c" beforeDir="false" afterPath="$PROJECT_DIR$/function.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function.h" beforeDir="false" afterPath="$PROJECT_DIR$/function.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +102,13 @@
       <workItem from="1592382232194" duration="715000" />
       <workItem from="1592397372912" duration="219000" />
       <workItem from="1593021733376" duration="237000" />
-      <workItem from="1593022202660" duration="462000" />
+      <workItem from="1593022202660" duration="984000" />
+      <workItem from="1593024859463" duration="6644000" />
+      <workItem from="1593940658555" duration="9470000" />
+      <workItem from="1593979357095" duration="2341000" />
+      <workItem from="1594720611696" duration="5233000" />
+      <workItem from="1594738846268" duration="3768000" />
+      <workItem from="1594845564622" duration="3855000" />
     </task>
     <servers />
   </component>
@@ -147,37 +116,76 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="55" key="GridCell.Tab.0.bottom" timestamp="1592294135848">
+    <state width="1398" height="221" key="GridCell.Tab.0.bottom" timestamp="1594929777644">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="62" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1592294146852">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="62" key="GridCell.Tab.0.bottom.inPresentationMode/0.23.1440.877@0.23.1440.877" timestamp="1592294146852" />
-    <state width="1398" height="55" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1592294135848" />
-    <state width="1398" height="55" key="GridCell.Tab.0.center" timestamp="1592294135846">
+    <state width="1398" height="221" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1594929777644" />
+    <state width="1398" height="221" key="GridCell.Tab.0.center" timestamp="1594929777644">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="62" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1592294146850">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="62" key="GridCell.Tab.0.center.inPresentationMode/0.23.1440.877@0.23.1440.877" timestamp="1592294146850" />
-    <state width="1398" height="55" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1592294135846" />
-    <state width="1398" height="55" key="GridCell.Tab.0.left" timestamp="1592294135846">
+    <state width="1398" height="221" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1594929777644" />
+    <state width="1398" height="221" key="GridCell.Tab.0.left" timestamp="1594929777643">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="62" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1592294146849">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="62" key="GridCell.Tab.0.left.inPresentationMode/0.23.1440.877@0.23.1440.877" timestamp="1592294146849" />
-    <state width="1398" height="55" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1592294135846" />
-    <state width="1398" height="55" key="GridCell.Tab.0.right" timestamp="1592294135847">
+    <state width="1398" height="221" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1594929777643" />
+    <state width="1398" height="221" key="GridCell.Tab.0.right" timestamp="1594929777644">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="62" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1592294146851">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="62" key="GridCell.Tab.0.right.inPresentationMode/0.23.1440.877@0.23.1440.877" timestamp="1592294146851" />
-    <state width="1398" height="55" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1592294135847" />
+    <state width="1398" height="221" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1594929777644" />
+    <state width="1398" height="359" key="GridCell.Tab.1.bottom" timestamp="1594929393843">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="359" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1594929393843" />
+    <state width="1398" height="359" key="GridCell.Tab.1.center" timestamp="1594929393841">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="359" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1594929393841" />
+    <state width="1398" height="359" key="GridCell.Tab.1.left" timestamp="1594929393841">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="359" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1594929393841" />
+    <state width="1398" height="359" key="GridCell.Tab.1.right" timestamp="1594929393843">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="359" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1594929393843" />
+    <state x="521" y="158" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1594725301518">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="521" y="158" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877@0.23.1440.877" timestamp="1594725301518" />
+    <state x="525" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593024392563">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="525" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1593024392563" />
+    <state x="447" y="98" key="refactoring.ChangeSignatureDialog" timestamp="1594728179719">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="447" y="98" key="refactoring.ChangeSignatureDialog/0.23.1440.877@0.23.1440.877" timestamp="1594728179719" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/function.c</url>
+          <line>170</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

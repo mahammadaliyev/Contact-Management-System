@@ -142,6 +142,56 @@ const char * to_Lower(char *str) {
     return str;
 }
 
+
+void deleteContact(Contact *contactToDelete, FILE *fp) {
+
+    FILE *fp_temp;
+    Contact *contact_s = (Contact *)malloc(sizeof(Contact));
+
+    fp = fopen(FILENAME, "rb");
+
+    if (fp == NULL) {
+
+        fprintf(stderr, "\nError opening file\n");
+
+        exit (1);
+
+    }
+
+    fp_temp = fopen("temp.bin", "wb");
+
+    if (fp_temp == NULL) {
+
+        fprintf(stderr, "\nError opening file\n");
+
+        exit (1);
+
+    }
+
+    while(fread(contact_s, sizeof(Contact), 1, fp)) {
+
+        if((strncmp(contactToDelete->name.name, contact_s->name.name, strlen(contactToDelete->name.name))) == 0 &&
+           (strncmp(contactToDelete->name.surname, contact_s->name.surname, strlen(contactToDelete->name.surname))) == 0 &&
+           (contactToDelete->number == contact_s->number)) {
+
+            printf("Contact %s %s is deleted\n", contactToDelete->name.name, contactToDelete->name.surname);
+
+        } else {
+
+            fwrite(contact_s, sizeof(Contact), 1, fp_temp);
+
+        }
+
+    }
+
+    fclose(fp);
+    fclose(fp_temp);
+
+    remove("contacts.bin");
+    rename("temp.bin", FILENAME);
+
+}
+
 int searchContact(char searchitem[], FILE *fp) {
 
     fp = fopen(FILENAME, "rb");
@@ -156,6 +206,9 @@ int searchContact(char searchitem[], FILE *fp) {
     fp = fopen(FILENAME, "rb");
     int is_equal = 0, st = 0, count = 1;
     Contact *contact_s = (Contact *)malloc(sizeof(Contact));
+    Contact contactArr[INITIAL_SIZE_FOR_ARRAY];
+    int optionToContact, optionToInteract;
+    int isDeleted = 0;
 
     char name[15], surname[15], country[15], city[15], street[15], email[50];
 
@@ -166,7 +219,7 @@ int searchContact(char searchitem[], FILE *fp) {
         sprintf(country, "%s", contact_s->address.country);
         sprintf(city, "%s", contact_s->address.city);
         sprintf(street, "%s", contact_s->address.street);
-        sprintf(email, "%s", contact_s->name.name);
+        sprintf(email, "%s", contact_s->email);
 
         if((!strncmp(to_Lower(name), to_Lower(searchitem), strlen(searchitem))) ||
            (!strncmp(to_Lower(surname), to_Lower(searchitem), strlen(searchitem))) ||
@@ -183,6 +236,8 @@ int searchContact(char searchitem[], FILE *fp) {
 
         if(is_equal) {
 
+            contactArr[count] = *contact_s;
+
             printf("=======================\n");
             printf("=      CONTACT %d      =\n", count++);
             printf("=======================\n");
@@ -193,6 +248,8 @@ int searchContact(char searchitem[], FILE *fp) {
 
         is_equal = 0;
 
+
+
     }
 
     fclose(fp);
@@ -201,6 +258,59 @@ int searchContact(char searchitem[], FILE *fp) {
 
         printf("%s was not found, try again\n", searchitem);
         free(contact_s);
+
+    }
+
+    if(st) {
+
+        do {
+
+            printf("Enter number of contact you want to continue with: ");
+            scanf("%d", &optionToContact);
+
+        } while (optionToContact >= count || optionToContact < 1);
+
+        printf("=======================\n");
+        printf("=      CONTACT        =\n");
+        printf("=======================\n");
+        printContact(contactArr[optionToContact]);
+
+        do {
+            printf("[1] Edit a Contact\n");
+            printf("[2] Delete a Contact\n");
+            printf("[3] Back to Main Menu\n");
+
+            printf("Enter the choice: ");
+
+            while(!scanf("%d", &optionToInteract)) {
+
+                while(getchar() != '\n');
+
+                printf("Invalid data, enter again: ");
+
+            }
+
+            switch(optionToInteract) {
+
+                case 1:
+
+                    break;
+
+                case 2:
+                    deleteContact(&contactArr[optionToContact], fp);
+                    isDeleted = 1;
+                    break;
+
+                case 3:
+                    break;
+
+                default:
+                    printf("You have entered wrong choice!\n");
+                    continue;
+
+            }
+
+        } while ((optionToInteract != 3) && (isDeleted != 1));
 
     }
 

@@ -14,6 +14,7 @@ int validEmail(char test[]);
 int validBirth(int birth);
 const char *to_Lower(char str[]);
 #define FILENAME "contacts.bin"
+#define INITIAL_SIZE_FOR_ARRAY 10
 
 typedef struct contactname {
 
