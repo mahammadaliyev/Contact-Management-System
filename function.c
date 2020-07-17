@@ -142,6 +142,176 @@ const char * to_Lower(char *str) {
     return str;
 }
 
+void editContact(Contact *contactToEdit, int optionToChange, FILE *fp) {
+
+    FILE *fp_temp;
+    Contact *contact_s = (Contact *)malloc(sizeof(Contact));
+    Contact *editedContact = (Contact *)malloc(sizeof(Contact));
+
+    fp = fopen(FILENAME, "rb");
+
+    if (fp == NULL) {
+
+        fprintf(stderr, "\nError opening file\n");
+
+        exit (1);
+
+    }
+
+    fp_temp = fopen("temp.bin", "wb");
+
+    if (fp_temp == NULL) {
+
+        fprintf(stderr, "\nError opening file\n");
+
+        exit (1);
+
+    }
+
+    while(fread(contact_s, sizeof(Contact), 1, fp)) {
+
+        if((strncmp(contactToEdit->name.name, contact_s->name.name, strlen(contactToEdit->name.name))) == 0 &&
+           (strncmp(contactToEdit->name.surname, contact_s->name.surname, strlen(contactToEdit->name.surname))) == 0 &&
+           (contactToEdit->number == contact_s->number)) {
+
+            switch(optionToChange) {
+
+                case 1:
+                    strcpy(editedContact->name.surname, contactToEdit->name.surname);
+                    strcpy(editedContact->address.country, contactToEdit->address.country);
+                    strcpy(editedContact->address.city, contactToEdit->address.city);
+                    strcpy(editedContact->address.street, contactToEdit->address.street);
+                    strcpy(editedContact->address.zip, contactToEdit->address.zip);
+                    strcpy(editedContact->email, contactToEdit->email);
+                    editedContact->birthday = contactToEdit->birthday;
+                    editedContact->number = contactToEdit->number;
+                    printf("Enter new name: ");
+                    scanf("%s", editedContact->name.name);
+                    break;
+
+                case 2:
+                    strcpy(editedContact->name.name, contactToEdit->name.name);
+                    strcpy(editedContact->address.country, contactToEdit->address.country);
+                    strcpy(editedContact->address.city, contactToEdit->address.city);
+                    strcpy(editedContact->address.street, contactToEdit->address.street);
+                    strcpy(editedContact->address.zip, contactToEdit->address.zip);
+                    strcpy(editedContact->email, contactToEdit->email);
+                    editedContact->birthday = contactToEdit->birthday;
+                    editedContact->number = contactToEdit->number;
+                    printf("Enter new surname: ");
+                    scanf("%s", editedContact->name.surname);
+                    break;
+
+                case 3:
+                    strcpy(editedContact->name.name, contactToEdit->name.name);
+                    strcpy(editedContact->name.surname, contactToEdit->name.surname);
+                    strcpy(editedContact->address.country, contactToEdit->address.country);
+                    strcpy(editedContact->address.city, contactToEdit->address.city);
+                    strcpy(editedContact->address.street, contactToEdit->address.street);
+                    strcpy(editedContact->address.zip, contactToEdit->address.zip);
+                    strcpy(editedContact->email, contactToEdit->email);
+                    editedContact->birthday = contactToEdit->birthday;
+                    printf("Enter new number: +994");
+                    scanf("%d", &editedContact->number);
+                    break;
+
+                case 4:
+                    strcpy(editedContact->name.name, contactToEdit->name.name);
+                    strcpy(editedContact->name.surname, contactToEdit->name.surname);
+                    strcpy(editedContact->address.city, contactToEdit->address.city);
+                    strcpy(editedContact->address.street, contactToEdit->address.street);
+                    strcpy(editedContact->address.zip, contactToEdit->address.zip);
+                    strcpy(editedContact->email, contactToEdit->email);
+                    editedContact->birthday = contactToEdit->birthday;
+                    editedContact->number = contactToEdit->number;
+                    printf("Enter new country: ");
+                    scanf("%s", editedContact->address.country);
+                    break;
+
+                case 5:
+                    strcpy(editedContact->name.name, contactToEdit->name.name);
+                    strcpy(editedContact->name.surname, contactToEdit->name.surname);
+                    strcpy(editedContact->address.country, contactToEdit->address.country);
+                    strcpy(editedContact->address.street, contactToEdit->address.street);
+                    strcpy(editedContact->address.zip, contactToEdit->address.zip);
+                    strcpy(editedContact->email, contactToEdit->email);
+                    editedContact->birthday = contactToEdit->birthday;
+                    editedContact->number = contactToEdit->number;
+                    printf("Enter new city: ");
+                    scanf("%s", editedContact->address.city);
+                    break;
+
+                case 6:
+                    strcpy(editedContact->name.name, contactToEdit->name.name);
+                    strcpy(editedContact->name.surname, contactToEdit->name.surname);
+                    strcpy(editedContact->address.country, contactToEdit->address.country);
+                    strcpy(editedContact->address.city, contactToEdit->address.city);
+                    strcpy(editedContact->address.zip, contactToEdit->address.zip);
+                    strcpy(editedContact->email, contactToEdit->email);
+                    editedContact->birthday = contactToEdit->birthday;
+                    editedContact->number = contactToEdit->number;
+                    printf("Enter new street: ");
+                    scanf("%s", editedContact->address.street);
+                    break;
+
+                case 7:
+                    strcpy(editedContact->name.name, contactToEdit->name.name);
+                    strcpy(editedContact->name.surname, contactToEdit->name.surname);
+                    strcpy(editedContact->address.country, contactToEdit->address.country);
+                    strcpy(editedContact->address.city, contactToEdit->address.city);
+                    strcpy(editedContact->address.street, contactToEdit->address.street);
+                    strcpy(editedContact->email, contactToEdit->email);
+                    editedContact->birthday = contactToEdit->birthday;
+                    editedContact->number = contactToEdit->number;
+                    printf("Enter new ZIP: ");
+                    scanf("%s", editedContact->address.zip);
+                    break;
+
+                case 8:
+                    strcpy(editedContact->name.name, contactToEdit->name.name);
+                    strcpy(editedContact->name.surname, contactToEdit->name.surname);
+                    strcpy(editedContact->address.country, contactToEdit->address.country);
+                    strcpy(editedContact->address.city, contactToEdit->address.city);
+                    strcpy(editedContact->address.street, contactToEdit->address.street);
+                    strcpy(editedContact->address.zip, contactToEdit->address.zip);
+                    editedContact->birthday = contactToEdit->birthday;
+                    editedContact->number = contactToEdit->number;
+                    printf("Enter new email: ");
+                    scanf("%s", editedContact->email);
+                    break;
+
+                case 9:
+                    strcpy(editedContact->name.name, contactToEdit->name.name);
+                    strcpy(editedContact->name.surname, contactToEdit->name.surname);
+                    strcpy(editedContact->address.country, contactToEdit->address.country);
+                    strcpy(editedContact->address.city, contactToEdit->address.city);
+                    strcpy(editedContact->address.street, contactToEdit->address.street);
+                    strcpy(editedContact->address.zip, contactToEdit->address.zip);
+                    strcpy(editedContact->email, contactToEdit->email);
+                    editedContact->number = contactToEdit->number;
+                    printf("Enter new birtyday (DDMMYYYY): ");
+                    scanf("%d", &editedContact->birthday);
+                    break;
+
+            }
+
+            fwrite(editedContact, sizeof(Contact), 1, fp_temp);
+
+        } else {
+
+            fwrite(contact_s, sizeof(Contact), 1, fp_temp);
+
+        }
+
+    }
+
+    fclose(fp);
+    fclose(fp_temp);
+
+    remove("contacts.bin");
+    rename("temp.bin", FILENAME);
+
+}
 
 void deleteContact(Contact *contactToDelete, FILE *fp) {
 
@@ -207,7 +377,7 @@ int searchContact(char searchitem[], FILE *fp) {
     int is_equal = 0, st = 0, count = 1;
     Contact *contact_s = (Contact *)malloc(sizeof(Contact));
     Contact contactArr[INITIAL_SIZE_FOR_ARRAY];
-    int optionToContact, optionToInteract;
+    int optionToContact, optionToInteract, optionToChange;
     int isDeleted = 0;
 
     char name[15], surname[15], country[15], city[15], street[15], email[50];
@@ -293,7 +463,29 @@ int searchContact(char searchitem[], FILE *fp) {
             switch(optionToInteract) {
 
                 case 1:
+                    do {
+                        printf("Which attribute do you want to edit?\n");
+                        printf("[1] Name\n");
+                        printf("[2] Surname\n");
+                        printf("[3] Number\n");
+                        printf("[4] Country\n");
+                        printf("[5] City\n");
+                        printf("[6] Street\n");
+                        printf("[7] ZIP\n");
+                        printf("[8] Email\n");
+                        printf("[9] Birthday\n");
+                        printf("[0] Go back\n");
 
+                        while(!scanf("%d", &optionToChange)) {
+
+                            while(getchar() != '\n');
+
+                            printf("Invalid data, enter again: ");
+
+                        }
+
+                        } while(optionToChange != 0 && (optionToChange < 1 || optionToChange > 9));
+                    editContact(&contactArr[optionToContact], optionToChange, fp);
                     break;
 
                 case 2:

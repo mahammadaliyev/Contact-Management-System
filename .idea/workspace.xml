@@ -13,12 +13,12 @@
   <component name="ChangeListManager">
     <list default="true" id="71f780ca-c5eb-4b1b-8cbe-9ea55f4aee83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/function.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/function.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/sort.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/sort.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ContactManagementSys.dir/main.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ContactManagementSys" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ContactManagementSys" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/contacts.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/function.c" beforeDir="false" afterPath="$PROJECT_DIR$/function.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function.h" beforeDir="false" afterPath="$PROJECT_DIR$/function.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,46 +108,67 @@
       <workItem from="1593979357095" duration="2341000" />
       <workItem from="1594720611696" duration="5233000" />
       <workItem from="1594738846268" duration="3768000" />
-      <workItem from="1594845564622" duration="3855000" />
+      <workItem from="1594845564622" duration="6838000" />
+      <workItem from="1594933651853" duration="755000" />
     </task>
+    <task id="LOCAL-00001" summary="Delete Contact added">
+      <created>1594929894251</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594929894251</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Delete Contact added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete Contact added" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="221" key="GridCell.Tab.0.bottom" timestamp="1594929777644">
+    <state x="461" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594965038555">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="461" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1594965038555" />
+    <state x="322" y="64" key="CommitChangelistDialog2" timestamp="1594965161455">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="322" y="64" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1594965161455" />
+    <state width="1398" height="187" key="GridCell.Tab.0.bottom" timestamp="1594965161592">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="62" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1592294146852">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="62" key="GridCell.Tab.0.bottom.inPresentationMode/0.23.1440.877@0.23.1440.877" timestamp="1592294146852" />
-    <state width="1398" height="221" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1594929777644" />
-    <state width="1398" height="221" key="GridCell.Tab.0.center" timestamp="1594929777644">
+    <state width="1398" height="187" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1594965161592" />
+    <state width="1398" height="187" key="GridCell.Tab.0.center" timestamp="1594965161591">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="62" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1592294146850">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="62" key="GridCell.Tab.0.center.inPresentationMode/0.23.1440.877@0.23.1440.877" timestamp="1592294146850" />
-    <state width="1398" height="221" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1594929777644" />
-    <state width="1398" height="221" key="GridCell.Tab.0.left" timestamp="1594929777643">
+    <state width="1398" height="187" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1594965161591" />
+    <state width="1398" height="187" key="GridCell.Tab.0.left" timestamp="1594965161589">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="62" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1592294146849">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="62" key="GridCell.Tab.0.left.inPresentationMode/0.23.1440.877@0.23.1440.877" timestamp="1592294146849" />
-    <state width="1398" height="221" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1594929777643" />
-    <state width="1398" height="221" key="GridCell.Tab.0.right" timestamp="1594929777644">
+    <state width="1398" height="187" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1594965161589" />
+    <state width="1398" height="187" key="GridCell.Tab.0.right" timestamp="1594965161591">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="62" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1592294146851">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="62" key="GridCell.Tab.0.right.inPresentationMode/0.23.1440.877@0.23.1440.877" timestamp="1592294146851" />
-    <state width="1398" height="221" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1594929777644" />
+    <state width="1398" height="187" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1594965161591" />
     <state width="1398" height="359" key="GridCell.Tab.1.bottom" timestamp="1594929393843">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -176,16 +197,9 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="447" y="98" key="refactoring.ChangeSignatureDialog/0.23.1440.877@0.23.1440.877" timestamp="1594728179719" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/function.c</url>
-          <line>170</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1594930847770">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1594930847770" />
   </component>
 </project>

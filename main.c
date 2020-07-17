@@ -29,10 +29,8 @@ int main(int argc, char *argv[]) {
         printf("[1] Add a new Contact\n");
         printf("[2] Show all Contacts\n");
         printf("[3] Search a Contact\n");
-        printf("[4] Edit a Contact\n");
-        printf("[5] Delete a Contact\n");
-        printf("[6] Sort Contacts\n");
-        printf("[7] Number of Contacts\n");
+        printf("[4] Sort Contacts\n");
+        printf("[5] Number of Contacts\n");
         printf("[0] Exit\n");
         printf("=======================\n");
 
@@ -63,22 +61,10 @@ int main(int argc, char *argv[]) {
                 break;
 
             case 4:
-//                printf("Enter Contact to Modify: ");
-//                scanf("%s", keyword);
-//                modifyContact(keyword, fp);
-                break;
-
-            case 5:
-//                printf("Enter Contact to delete: ");
-//                scanf("%s", keyword);
-//                deleteContact(keyword, fp);
-                break;
-
-            case 6:
                 sort(fp);
                 break;
 
-            case 7:
+            case 5:
                 numberOfContacts(fp);
                 break;
 
